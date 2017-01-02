@@ -238,3 +238,7 @@ a.language-selected { font-style: italic; font-weight: bold; }
 .modal-dialog {
     width: 620px;
 }
+
+.configuration .btn {
+    padding: 1px 5px;
+}
