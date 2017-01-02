@@ -300,13 +300,27 @@ function downloadLayoutSrc() {
     t.find(".removeClean").remove();
     $("#download-layout .column").removeClass("ui-sortable");
     $("#download-layout .form").removeClass("ui-sortable"); // 增加form
+    $("#download-layout .form").removeClass("form"); // 增加form
     $("#download-layout .row-fluid").removeClass("clearfix").children().removeClass("column");
     if ($("#download-layout .container").length > 0) {
         changeStructure("row-fluid", "row")
     }
     formatSrc = $.htmlClean($("#download-layout").html(), {
         format: true,
-        allowedAttributes: [["id"], ["class"], ["data-toggle"], ["data-target"], ["data-parent"], ["role"], ["data-dismiss"], ["aria-labelledby"], ["aria-hidden"], ["data-slide-to"], ["data-slide"]]
+        allowedAttributes: [
+            ["id"],
+            ["class"],
+            ["data-toggle"],
+            ["data-target"],
+            ["data-parent"],
+            ["role"],
+            ["data-dismiss"],
+            ["aria-labelledby"],
+            ["aria-hidden"],
+            ["data-slide-to"],
+            ["placeholder"],
+            ["data-slide"]
+        ]
     });
     $("#download-layout").html(formatSrc);
     $("#downloadModal textarea").empty();

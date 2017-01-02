@@ -1,6 +1,7 @@
 body {
 	padding-top:50px;
 	padding-bottom: 40px;
+	padding-right: 19px;
 	margin-left:200px;
 	-webkit-transition: margin 500ms ease;
 	-moz-transition: margin 500ms ease;
