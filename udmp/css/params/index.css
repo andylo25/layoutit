@@ -1,0 +1,78 @@
+/**
+ * Description:
+ * @author Seadon
+ * @date 2016-2-18
+ * tags
+ */
+@CHARSET "UTF-8";
+/*my work*/
+.i-red {
+	background-color: #ff8158;
+}
+.i-yellow {
+	background-color: #f5b44f;
+}
+.i-blue {
+	background-color: #47a0ef;
+}
+.i-other {
+	background-color: #00c2d0;
+}
+.i-b-red {
+	color: red;
+}
+.i-my-work .panel {
+	border: none;
+	margin-bottom: 15px;
+}
+.i-my-work .i-work-symbol {
+	float: left;
+	text-align: center;
+	width: 30%;
+	padding: 25px 10px;
+	-webkit-border-radius: 4px 0px 0px 4px;
+	border-radius: 4px 0px 0px 4px;
+}
+.i-my-work .i-work-symbol i {
+  color: #fff;
+  font-size: 50px;
+}
+.i-my-work .i-work-info {
+	float: right;
+ 	width: 68%;
+ 	padding-top: 16px;
+	display: inline-block;
+  text-align: center;
+}
+.i-my-work .i-work-info h1, .i-my-work .i-work-info p {
+	margin: 0;
+	padding: 0;
+	color: #b2b8cb;
+}
+.i-my-work .i-work-info h1 {
+	font-size: 32px;
+}
+.i-my-work .i-work-info p {
+	font-size: 14px;
+	margin-top: 5px;
+	padding: 0 5px 0 3px;
+}
+.i-my-work .i-work-info p>i{
+	font-style: normal;
+	padding: 0 3px;
+}
+
+/*warning*/
+.i-warn-custom .panel-body {
+	padding: 5px 15px 20px;
+}
+.i-warn-custom .media {
+  margin: 0;
+	padding: 10px 0 5px;
+  border-bottom: solid 1px #ccc;
+}
+.i-chart-warn .panel {
+	padding: 10px;
+}
+
+.rad{}

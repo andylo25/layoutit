@@ -1,0 +1,174 @@
+/**
+ * Description:
+ * @author Seadon
+ * @date 2016-1-28
+ * tags
+ */
+@CHARSET "UTF-8";
+/*
+html{
+	-webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    padding:90px 0;
+}*/
+html,body{
+	width:100%;
+	height:100%;
+	font-family:"microsoft yahei","Microsoft YaHei UI",Helvetica, Georgia, Arial, sans-serif;
+}
+html,body,h3,h5{
+	margin:0; overflow:hidden;
+}
+a{
+	text-decoration: none;
+}
+.f-left{
+	float:left;
+}
+.f-right{
+	margin:0 auto;
+}
+.w-left{
+	width:66%;
+	padding:0 20px;
+	box-sizing: border-box;
+}
+.w-right{
+	width:33%;
+
+}
+#header,#container,#footer{
+	position:relative;
+	top:-90px;
+}
+
+/*heads info*/
+
+#header{
+	min-width:460px;
+	padding:30px 50px
+}
+#header .i-login-logo{
+	width:122px;
+	height:43px;
+}
+#header h3{
+	font-size:30px;
+	font-weight:400;
+	color:#777;
+}
+
+/*container info*/
+
+#container{
+	display: table;
+	width:100%;
+	height:520px;
+	color:#fff;
+}
+#content{
+	display:table-cell;
+	vertical-align: middle;
+}
+/*#container .login-bg{
+	width:100%;
+	width: 360px;
+	margin:0 auto;
+}*/
+#loginForm{
+	margin:0 auto;width: 360px;
+}
+.c-uname{margin:0 auto;width: 360px;}
+#loginForm .c-title{
+	margin-bottom:15px;
+  	font-size: 22px;
+  	color:#fff;
+    font-weight: 400;
+}
+.c-uname,.c-upwd,.validateCode{
+	color:#fff;
+	line-height:2;
+	margin-bottom:10px;
+}
+#username,#password,#c-submit{
+	width:340px;
+	border:0;
+	height: 46px;
+    padding:0 10px;
+    border-radius: 5px;
+    outline: none;
+}
+#username:focus,#password:focus{
+	border-color: #df7175;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(223,113,117,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(223,113,117,.6);
+}
+#c-submit{
+	background-color:#de3e39;
+	border-color:#d43f3a;
+	color:#fff;
+	text-align:center;
+	font-size:16px;
+	width:360px;
+}
+#c-submit:hover{
+	cursor: pointer;
+	filter: alpha(opacity=80); opacity: 0.80; transition: all .2S ease-out 0s;
+	text-decoration: none;
+}
+#validateCode{
+    height: 28px;
+    padding: 5px;
+    width: 55px;
+    position: relative;
+    top: -7px;
+}
+.validateCode .mid{
+	position: relative;
+    top: 2px;
+	margin-bottom:0;
+}
+.c-remem{
+	display:block;
+}
+
+/*footer info*/
+
+#footer{
+	width:100%;
+	color: #fff;
+	text-align: center;
+	padding-top:20px;
+}
+
+.clearfix:before,.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+
+.loginBg {
+	width: 100%;
+	background:#6b61a7 url("images/loginBg.jpg") no-repeat top center;
+	height: auto;
+}
+.loginLogo {
+	width:360px;
+	height: 52px;
+	background: url("images/loginLogo.png") no-repeat ;
+	margin:0 auto;
+	margin-top:60px;
+	padding-bottom:20px;
+	cursor:pointer;
+	transition: all 1s;-webkit-transition: all 1s; -moz-transition: all 1s; -o-transition: all 1s;
+}
+.loginLogo:hover {
+	transform: scale(0.96); -moz-transform: scale(0.96); -webkit-transform: scale(0.96);-o-transform: scale(0.96);
+}
+
+
+

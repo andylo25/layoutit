@@ -1,0 +1,99 @@
+/**
+ * Description: 用户列表页样式
+ * @author Seadon
+ * @date 2016-01-26
+ * tags
+ */
+@CHARSET "UTF-8";
+#btnImport,#btnExport{
+	margin-left:10px;
+}
+#searchForm{
+	min-width: 710px;
+}
+/*用户列表表格样式*/
+#contentTable{
+	margin-top: 10px;
+}
+#contentTable thead{
+	border-top: solid 1px #ddd;
+}
+#contentTable th{
+	font-size:15px;
+}
+#contentTable td>button {
+	padding: 0;
+	margin-right:12px;
+	outline:none;
+}
+/*ztree样式*/
+#orgTree ol>li.active{
+	width:100%;
+}
+#orgTree ol>li.active em{
+	font-style:normal;
+	font-weight:bold;
+}
+#orgTree ol span.glyphicon{
+	top: 3px;
+}
+#ztree{
+	margin-left:30px;
+}
+#ztree li {
+    margin:0;
+    position:relative
+}
+#ztree li::before, #ztree li::after {
+    content:'';
+    left:-30px;
+    position:absolute;
+    right:auto
+}
+#ztree li::before {
+    border-left:1px solid #999;
+    bottom:50px;
+    height:100%;
+    top:-16px;
+    width:1px
+}
+#ztree li::after {
+    border-top:1px solid #999;
+    height:20px;
+    top:13px;
+    width:30px
+}
+#ztree>li::before,#ztree>li.i_tree_hidden::after{
+    border:0
+}
+#ztree>li::after{
+    width:12px;
+    left:-12px;
+}
+#ztree li a{
+	padding: 1px 3px 0 0;
+  	height: 30px;
+	background-color: transparent;
+  	border: none;
+}
+#ztree a>.button,#ztree span.switch{
+  	display: none;
+}
+#ztree li a>span{
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 3px 8px;
+    text-decoration: none;
+}
+#ztree li a>span:hover,#ztree li>a.curSelectedNode>span{
+  	background-color: #33CCFF;
+ 	color: #fff;
+ 	border: 1px solid #33CCDD;
+}
+#ztree i.glyphicon{
+	font-family: 'Glyphicons Halflings';
+  	margin-right: 5px;
+}

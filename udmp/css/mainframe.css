@@ -1,0 +1,94 @@
+body { overflow:hidden; }
+
+/* 页头 */
+#frameHeader { margin-bottom:0; border:0; border-radius:0; }
+#frameHeader .container-fluid { padding:0; border-bottom:1px solid #F1F2F3; }
+#frameHeader .navbar-header { width:200px; height:60px; padding-top:8px; padding-left:35px; 
+	background-color:#FAFAFA; border-right:1px solid #D7DDE7; }
+#frameHeader .navbar-nav { margin-bottom:0; margin-right:0; }
+#frameHeader .navbar-nav > .open > a,
+#frameHeader .navbar-nav > li > a:hover, #frameHeader .navbar-nav > li > a:focus,
+#frameHeader .navbar-nav >.open > a:hover, #frameHeader .navbar-nav >.open > a:focus 
+	{ background-color:transparent; }
+#frameHeader .navbar-nav > li > a.btn-icon { padding:20px; font-size:16px; }
+#frameHeader .navbar-nav > li > a.btn-icon.off { color:#c0c0c0; }
+#frameHeader .navbar-nav li .form-query { padding-top:11px; padding-left:20px; }
+#frameHeader .navbar-nav li .form-query .has-feedback .glyphicon-search { cursor:pointer; pointer-events:auto; }
+#frameHeader .navbar-right > li > a { margin-top:18px; border-right:1px solid #DDDDDD; padding:0 18px 0 18px; }
+#frameHeader .navbar-nav li a.btn-message { position:relative; font-size:18px; }
+#frameHeader .navbar-nav li a.btn-message .badge { position: absolute; top:-1px; left:33px; 
+	width:7px; height:7px; padding:0; border-radius:7px; min-width:7px; background-color:#FF3D3D; }
+#frameHeader .navbar-nav .dropdown a.user-img { margin-top:8px; border-right:0; }
+#frameHeader .navbar-nav .dropdown a.user-img img { border-radius:44px; height: 44px; width: 44px; }
+#frameHeader .navbar-nav .dropdown .dropdown-menu .glyphicon { margin-right:5px; }
+
+/*页面主体*/
+#frameBody { position:relative; }
+
+/*左侧菜单栏 */
+#frameLeft { position:absolute; padding:20px 0; width:200px; border-right:1px solid #d4d4d4; overflow:auto; }
+
+/* 右侧内容区 */
+#frameRight { position:relative; margin-left:200px; padding:20px; box-shadow:0 0 3px #e0e0e0 inset; }
+
+/*左侧菜单*/
+#menu li a {
+	padding:10px;
+	border-left:3px solid transparent; 
+	border-radius:0; 
+	color:#5C5C5C; 
+	white-space:nowrap; 
+	overflow: hidden; 
+	text-overflow: ellipsis; 
+}
+#menu li a:focus, #menu li a:hover, #menu li a.active {
+	border-left:3px solid #E60012;
+    background-color: #F9F9F9;
+}
+#menu li a .icon { top:4px; margin-right:5px; font-size:18px; color:#FFB7B7; }
+#menu li a:focus .icon, #menu li a:hover .icon, #menu li a.active .icon { color:#E60012; }
+#menu li a .glyphicon.pull-right { margin-top:3px; color:#5C5C5C; }
+#menu li.title { padding:10px 15px; background-color:#E60012; color:#fff; font-weight:bold; }
+
+#menu ul, #menu ul li { display:none; }
+#menu > li > ul > li > a { text-indent:5px; }
+#menu > li > ul > li > ul > li > a { text-indent:10px; }
+
+#menu.mini li a { border-left:0; }
+#menu.mini > li { position:relative; }
+#menu.mini > li > a > .text { display: none; }
+#menu.mini > li > a > .glyphicon.pull-right { display: none; }
+#menu.mini > li > ul {
+	position:absolute; 
+	top:0;
+	left:43px;
+	width: 200px;
+	padding-bottom: 2px;
+	border: 1px solid #cecece;
+	background-color: #ffffff;
+	z-index: 100;
+}
+
+/*页面载入进度条*/
+#loadingBar { position: absolute; left:0; top:0; display:none;
+	width:0; height:5px; border-radius:5px; line-height:0; z-index:50; }
+
+/*内容标签页*/
+#tabFrame { margin-top:-10px; }
+#tabFrame > .nav-tabs { margin-bottom:10px; padding:0 10px; border-bottom:1px solid #E60012; }
+#tabFrame > .nav-tabs:empty { display:none; }
+#tabFrame > .nav-tabs li { position:relative; margin:0 5px; }
+#tabFrame > .nav-tabs li a { padding:5px 25px 5px 15px; border-color:transparent; 
+	border-bottom:3px; font-weight:bold; cursor:pointer; }
+#tabFrame > .nav-tabs li a:hover { background-color:transparent; }
+#tabFrame > .nav-tabs li.active a { border-bottom:3px solid #E60012; }
+#tabFrame > .nav-tabs li .btn-remove { position:absolute; top:4px; right:5px; color:#E60012; cursor:pointer; font-size:18px; }
+#tabFrame > .tab-content { overflow:auto; }
+
+/*内容iframe页*/
+#mainFrame { width:100%; border:0; overflow:auto; }
+
+/*右下角消息框*/
+#message { position:absolute; right:10px; bottom:-160px; margin-bottom:0; 
+	width:250px; height:160px; padding:10px 15px; z-index:80; display:none; }
+#message .title { font-weight:bold; }

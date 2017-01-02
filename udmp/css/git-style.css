@@ -1,0 +1,125 @@
+/**自定义CSS*/
+.table-btn {
+	color: #33CCFF;
+}
+
+.table-btn:focus, .table-btn.focus {
+	color: #33CCFF;
+}
+
+.table-btn:hover {
+	color: #33CCFF;
+}
+
+.table-btn:active, .table-btn.active, .open>.dropdown-toggle.table-btn {
+	color: #33CCFF;
+}
+
+.table-btn:active:hover, .table-btn.active:hover, .open>.dropdown-toggle.table-btn:hover,
+	.table-btn:active:focus, .table-btn.active:focus, .open>.dropdown-toggle.table-btn:focus,
+	.table-btn:active.focus, .table-btn.active.focus, .open>.dropdown-toggle.table-btn.focus
+	{
+	color: #33CCFF;
+}
+
+.table-btn-assign {
+	color: #0000ff;
+}
+
+.table-btn-assign:focus, .table-btn-assign.focus {
+	color: #0000ff;
+}
+
+.table-btn-assign:hover {
+	color: #0000ff;
+}
+
+.table-btn-assign:active, .table-btn-assign.active, .open>.dropdown-toggle.table-btn-assign
+	{
+	color: #0000ff;
+}
+
+.table-btn-assign:active:hover, .table-btn-assign.active:hover, .open>.dropdown-toggle.table-btn-assign:hover,
+	.table-btn-assign:active:focus, .table-btn-assign.active:focus, .open>.dropdown-toggle.table-btn-assign:focus,
+	.table-btn-assign:active.focus, .table-btn-assign.active.focus, .open>.dropdown-toggle.table-btn.focus
+	{
+	color: #0000ff;
+}
+
+.table-btn-edit {
+	color: #33CCFF;
+}
+
+.table-btn-edit:focus, .table-btn-edit.focus {
+	color: #33CCFF;
+}
+
+.table-btn-edit:hover {
+	color: #33CCFF;
+}
+
+.table-btn-edit:active, .table-btn-edit.active, .open>.dropdown-toggle.table-btn-edit
+	{
+	color: #33CCFF;
+}
+
+.table-btn-edit:active:hover, .table-btn-edit.active:hover, .open>.dropdown-toggle.table-btn-edit:hover,
+	.table-btn-edit:active:focus, .table-btn-edit.active:focus, .open>.dropdown-toggle.table-btn-edit:focus,
+	.table-btn-edit:active.focus, .table-btn-edit.active.focus, .open>.dropdown-toggle.table-btn.focus
+	{
+	color: #33CCFF;
+}
+
+.table-btn-delete {
+	color: #FF0000;
+}
+
+.table-btn-delete:focus, .table-btn-delete.focus {
+	color: #FF0000;
+}
+
+.table-btn-delete:hover {
+	color: #FF0000;
+}
+
+.table-btn-delete:active, .table-btn-delete.active, .open>.dropdown-toggle.table-btn-delete
+	{
+	color: #FF0000;
+}
+
+.table-btn-delete:active:hover, .table-btn-delete.active:hover, .open>.dropdown-toggle.table-btn-delete:hover,
+	.table-btn-delete:active:focus, .table-btn-delete.active:focus, .open>.dropdown-toggle.table-btn-delete:focus,
+	.table-btn-delete:active.focus, .table-btn-delete.active.focus, .open>.dropdown-toggle.table-btn.focus
+	{
+	color: #FF0000;
+}
+
+.table-btn-child {
+	color: #3ce11e;
+}
+
+.table-btn-child:focus, .table-btn-child.focus {
+	color: #3ce11e;
+}
+
+.table-btn-child:hover {
+	color: #3ce11e;
+}
+
+.table-btn-child:active, .table-btn-child.active, .open>.dropdown-toggle.table-btn-child
+	{
+	color: #3ce11e;
+}
+
+.table-btn-child:active:hover, .table-btn-child.active:hover, .open>.dropdown-toggle.table-btn-child:hover,
+	.table-btn-child:active:focus, .table-btn-child.active:focus, .open>.dropdown-toggle.table-btn-child:focus,
+	.table-btn-child:active.focus, .table-btn-child.active.focus, .open>.dropdown-toggle.table-btn.focus
+	{
+	color: #3ce11e;
+}
+
+.table-btn-column {
+	background-color: transparent;
+	border: 0;
+	padding:0;
+}
